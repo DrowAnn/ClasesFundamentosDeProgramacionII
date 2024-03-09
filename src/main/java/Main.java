@@ -10,9 +10,11 @@ public class Main {
         // Clase2 prueba2 = new Clase2();
         // prueba2.matrix();
 
-        Clase3 prueba3 = new Clase3();
-        prueba3.pilas();
+        //Clase3 prueba3 = new Clase3();
+        //prueba3.pilas();
 
+        Clase4 prueba4 = new Clase4();
+        prueba4.colas();
     }
 
 }
