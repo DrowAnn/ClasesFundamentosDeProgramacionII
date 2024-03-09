@@ -7,8 +7,11 @@ public class Main {
         // Clase1 prueba1 = new Clase1();
         // prueba1.arr();
 
-        Clase2 prueba2 = new Clase2();
-        prueba2.matrix();
+        // Clase2 prueba2 = new Clase2();
+        // prueba2.matrix();
+
+        Clase3 prueba3 = new Clase3();
+        prueba3.pilas();
 
     }
 
