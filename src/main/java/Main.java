@@ -13,9 +13,10 @@ public class Main {
         // Clase3 prueba3 = new Clase3();
         // prueba3.pilas();
 
-        Clase4 prueba4 = new Clase4();
-        prueba4.colas1();
-        prueba4.colas2();
+        // Clase4 prueba4 = new Clase4();
+        // prueba4.colas1();
+        // prueba4.colas2();
+
     }
 
 }
