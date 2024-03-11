@@ -55,6 +55,10 @@ public class Main {
          * }
          */
 
+        //Ordenamiento por Selección
+        Clase6 prueba6 = new Clase6();
+        prueba6.ordenamientoSeleccion();
+
     }
 
 }
