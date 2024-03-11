@@ -36,7 +36,7 @@ public class Main {
          * String nombre2 = "Isabella";
          * String nombre3 = "Francia";
          * String nombre4 = "Olga";
-         * 
+         *
          * Clase5 n1 = new Clase5(nombre1);
          * Clase5 n2 = new Clase5(nombre2);
          * Clase5 n3 = new Clase5(nombre3);
@@ -55,10 +55,16 @@ public class Main {
          * }
          */
 
-        //Ordenamiento por Selección
-        Clase6 prueba6 = new Clase6();
-        prueba6.ordenamientoSeleccion();
+        // Ordenamiento por Selección
+        /*
+         * Clase6 prueba6 = new Clase6();
+         * prueba6.ordenamientoSeleccion();
+         */
 
+        //Ordenamiento por Inserción
+        Clase7 prueba7 = new Clase7();
+        prueba7.ordenamientoInsercion();
+        
     }
 
 }
