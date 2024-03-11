@@ -12,9 +12,7 @@ public class Clase1 {
         arreglo[3] = 'a';
 
         for (int palabra = 0; palabra < arreglo.length; palabra++) {
-
             System.out.print(arreglo[palabra]);
-
         }
 
     }

@@ -15,16 +15,11 @@ public class Clase3 {
         pila.push(4);
 
         while (true) {
-
             try {
-
                 System.out.println(pila.pop());
-
             } catch (EmptyStackException e) {
-
                 System.out.println("La pila esta vacia");
                 break;
-
             }
         }
 

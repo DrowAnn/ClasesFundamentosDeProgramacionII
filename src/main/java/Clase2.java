@@ -32,15 +32,10 @@ public class Clase2 {
         matriz[5][3] = 'R';
 
         for (int fila = 0; fila < matriz.length; fila++) {
-
             for (int columna = 0; columna < matriz[fila].length; columna++) {
-
                 System.out.print(matriz[fila][columna]);
-
             }
-
             System.out.println();
-
         }
 
     }

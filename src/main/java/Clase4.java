@@ -14,19 +14,13 @@ public class Clase4 {
         cola.add("como");
         cola.add("estas?");
 
-        while(true){
-
-            try{
-                
+        while (true) {
+            try {
                 System.out.println(cola.remove());
-                
-             }catch(NoSuchElementException e){
-                
+            } catch (NoSuchElementException e) {
                 System.out.println("No hay mas elementos en la cola");
-                 break;
-             
+                break;
             }
-            
         }
 
     }
@@ -34,27 +28,19 @@ public class Clase4 {
     public void colas2() {
 
         Queue<String> cola = new LinkedList<String>();
-        String arreglo[] = {"Me", "llamo", "Robert"};
-        
-        for (int posicion = 0; posicion < arreglo.length; posicion++){
+        String arreglo[] = { "Me", "llamo", "Robert" };
 
+        for (int posicion = 0; posicion < arreglo.length; posicion++) {
             cola.add(arreglo[posicion]);
-            
         }
 
-        while(true){
-
-            try{
-
+        while (true) {
+            try {
                 System.out.println(cola.remove());
-
-             }catch(NoSuchElementException e){
-
+            } catch (NoSuchElementException e) {
                 System.out.println("No hay mas elementos en la cola");
-                 break;
-
+                break;
             }
-
         }
 
     }
